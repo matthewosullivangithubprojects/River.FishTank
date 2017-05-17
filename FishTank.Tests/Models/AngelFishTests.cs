@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Xunit;
 
-namespace FishTank.Tests.Models
+namespace FishTank.Models
 {
-    public class UnitTest1
+    [TestClass]
+    public class AngelFishTests
     {
-        [Fact]
+        [TestMethod]
         public void TestMethod1()
         {
         }

@@ -8,7 +8,7 @@
     <ProjectGuid>{BFFE65B4-B03C-41A3-9B50-CFB44B61B71D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FishTank.Tests</RootNamespace>
+    <RootNamespace>FishTank</RootNamespace>
     <AssemblyName>FishTank.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -61,7 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\UnitTest1.cs" />
+    <Compile Include="Models\FishTankTests.cs" />
+    <Compile Include="Models\AngelFishTests.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
