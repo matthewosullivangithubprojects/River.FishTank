@@ -1,0 +1,12 @@
+I need a new C# class library (any .net version) to help me manage my fish tank. Don't worry about about the UI: I will build that.
+
+The library should satisfy the following user stories and demonstrate your design, coding and testing abilities.
+
+1.	A user should be able to add 3 types of fish to the tank (Gold fish, Angel fish, Babel fish) and name the fish.
+2.	A user should be able to see how much food to put in the tank with a Tank.Feed() method.
+3.	This should return the weight in grams of the total required fish food.
+	0.1 for each Gold fish
+	0.2 for each Angel fish
+	0.3 for each Babel fish
+
+Ensure the design allows me to add more types of fish in the future without having to change the tank class.
