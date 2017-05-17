@@ -10,7 +10,7 @@ namespace FishTank.Core
 
         protected Tank(IEnumerable<IFish> fish)
         {
-            if(fish==null) throw new ArgumentNullException(nameof(fish));
+            if (fish == null) throw new ArgumentNullException(nameof(fish));
 
             FishCollection = fish.ToList();
         }

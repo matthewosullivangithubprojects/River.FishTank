@@ -1,15 +1,32 @@
 1.	What makes your code easy to understand by humans?
 
-	A
+	I ensure my code remains understandable to humans by always aiming to apply DRY and SOLID principles, I name things in a
+	consistent and obvious manner and aggressively refactor when things begin to smell.
 
-2.	At river we are a very collaborative team and like to pair program, how would you fit into this environment?
+2.	At River we are a very collaborative team and like to pair program, how would you fit into this environment?
 
-	A
+	Although I am very capable of working by myself, it is only with there is a constant level of discussion that can truly
+	assist projects towards completion. By having someone challenge/assist you and you them, it helps to maintain focus,
+	continued learning and understanding of the task at hand.
 
-3.	Q
+3.	At River we have a team of Product Owners, what do you expect from your Product Owner?
 
-	A
+	The Product Owner role comes from the Agile/Scrum methodology whereby the Product Owner owns the product and will 
+	provide continued guidance to the direction of the project and therefore the work to be carried out. This ties in with
+	Agile sprints where the PO will direct the teams focus to provide minimum viable products on a regular basis, the intent
+	of this approach is to break away from the traditional Waterfall type approach, whereby the requirements are provided up 
+	front, and the business have no visibility of the state of the project until many months later at which point what is 
+	delivered no longer represents the wants and need of the business as their priorities have changed and will probably 
+	never have been what the business wanted anyway due to the loss of information inherent within the process.
 
-4.	Q
+4.	How do you ensure your team develop the skills needed to work effectively?
 
-	A
+	The pace of software technology is fast and unlike many other traditional professions, the need to continually up skill
+	oneself is paramount. There are many tools that are available to aid in continued development including such amazing 
+	sites as PluralSight (I don't take commission honest). However it is key to evangelise people to enjoy change, to
+	continually research new and upcoming technologies and to have an open mind and realise that things change and 
+	you need to get on board to be relevant.
+	I would recommend having a specific portion put aside each week to learn, either by reading/watching relevant material,
+	or by working on a pet project. This is often a good idea because software engineers like to program in their own time
+	and the benefits of this work are two fold. Increased happiness and education in the employee which translates directly 
+	back into the workplace.
