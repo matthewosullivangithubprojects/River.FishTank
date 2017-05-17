@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace FishTank.Core
@@ -10,12 +9,8 @@ namespace FishTank.Core
 
         protected Tank(IEnumerable<IFish> fish)
         {
-            if(fish==null) throw new ArgumentNullException(nameof(fish));
-
             FishCollection = fish.ToList();
         }
-
-        public IEnumerable<IFish> Fish => FishCollection;
 
         public decimal Feed()
         {

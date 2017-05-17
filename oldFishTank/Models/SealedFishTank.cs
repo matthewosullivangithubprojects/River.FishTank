@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using FishTank.Core;
 
-namespace FishTank.Models
+namespace FishTank
 {
-    public class FishTank : Tank
+    public class SealedFishTank : Tank
     {
-        public FishTank(IEnumerable<IFish> fish) 
+        public SealedFishTank(IEnumerable<IFish> fish) 
             : base(fish)
         {
         }

@@ -1,6 +1,6 @@
 ﻿using FishTank.Core;
 
-namespace FishTank.Models
+namespace FishTank
 {
     public class BabelFish : Fish
     {

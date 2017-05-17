@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BFFE65B4-B03C-41A3-9B50-CFB44B61B71D}</ProjectGuid>
+    <ProjectGuid>{E1E78067-6D8D-4B99-892C-820C9296C375}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FishTank</RootNamespace>
-    <AssemblyName>FishTank.Tests</AssemblyName>
+    <RootNamespace>FishTank.Core.Tests</RootNamespace>
+    <AssemblyName>FishTank.Core.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -68,28 +68,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factories\FishFactoryTests.cs" />
-    <Compile Include="Fish\AngelFishTests.cs" />
-    <Compile Include="Fish\GoldFishTests.cs" />
-    <Compile Include="Fish\BabelFishTests.cs" />
-    <Compile Include="Tanks\FishTankTests.cs" />
+    <Compile Include="Models\TankTests.cs" />
+    <Compile Include="Models\FishTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\xunit.analyzers.0.1.0.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\FishTank.Core\FishTank.Core.csproj">
-      <Project>{9AFDCA2C-9E6E-414A-91C3-CDFD698DD605}</Project>
+      <Project>{9afdca2c-9e6e-414a-91c3-cdfd698dd605}</Project>
       <Name>FishTank.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FishTank\FishTank.csproj">
-      <Project>{A34B154B-A844-44E9-B49B-0444FF4BA16E}</Project>
-      <Name>FishTank</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\xunit.analyzers.0.1.0.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
