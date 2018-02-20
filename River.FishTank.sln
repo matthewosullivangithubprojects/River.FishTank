@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishTank.Tests", "FishTank.Tests\FishTank.Tests.csproj", "{BFFE65B4-B03C-41A3-9B50-CFB44B61B71D}"
 EndProject
@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		CodeMap.dgml = CodeMap.dgml
 		ProductBrief.txt = ProductBrief.txt
 		Questions.txt = Questions.txt
+		UserStoies.txt = UserStoies.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishTank", "FishTank\FishTank.csproj", "{A34B154B-A844-44E9-B49B-0444FF4BA16E}"
@@ -49,5 +50,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99AA9FDD-3BDD-4174-8915-5C881BEE072D}
 	EndGlobalSection
 EndGlobal
